@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+   
+}
+body {
+    background-image: url(../rock-paper-scissors/poke-pics/backgroundpic.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+header {
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.header {
+    background-color: black;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+
+
+.zone {
+display: flex;
+justify-content: space-between;
+
+
+}
+
+.left {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    max-height: 700px;
+    border-radius: 10px;
+    margin: 50px;
+    
+}
+
+.rox {
+    max-width: 100px;
+    max-height: 100px;
+    padding: 30px;
+
+}
+
+
+.right {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    max-height: 700px;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.back {
+    max-height: 1000px;
+    max-width: 1000px;
+    border-radius: 10px;
+}
+
+.mid {
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.zone-below{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 80px;
+}
+
+.player1 {
+    color: white;
+    padding: 20px;
+}
+.left-side {
+    background-color: black;
+    border-radius: 10px;
+}
+
+.evil {
+    color:white;
+    padding: 20px;
+}
+
+.right-side {
+    background-color: black;
+    border-radius: 10px;
+}
+
+.middle {
+    background-color: black;
+    border-radius: 10px;
+}
+.scoreboard {
+    color: white;
+    padding: 20px;
+    margin-top: 0px;
+}
